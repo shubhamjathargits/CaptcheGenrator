@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<div>
+<nav>
+    <div class="nav-container">
+        <div class="logo">
+            <a href="#"><img src="my.JPG" alt="Logo"></a>
+            <h3>Shubham Jathar - Developer</h3>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/shubhamjathargits" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/twitby_shubham" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/shubham-jathar/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <a href="https://github.com/shubhamjathargits/CruddingApp"><button id="getCodeBtn">Get Code</button></a>
+    </div>
+</nav>
+</div>
+<body>
+    <div class="container">
+        <h1> Captcha Genrator</h1>
+        <input type="text" readonly id="cap" placeholder="">
+
+        <form>
+            <input type="text" id="inp" placeholder="Enter Captcha">
+            <button id="btn1" onclick="submitCaptcha()" type="button">Submit</button>
+            <button id="btn2" onclick="refreshCaptcha()">Refresh</button>
+        </form>
+    </div>
+</body>
+<div>
+</html>

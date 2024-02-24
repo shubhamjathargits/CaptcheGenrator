@@ -1,0 +1,257 @@
+/* Resetting default margin and padding */
+body,
+h1,
+form,
+input,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.logo img {
+    width: 60px; /* Adjust size as needed */
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border-color: #007bff; /* Change border color to blue on hover */
+    box-shadow: 0 0 5px #007bff, 0 0 10px #007bff, 0 0 20px #007bff; 
+}
+
+.social-links a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 200px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#cap {
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 170px;
+}
+
+#btn1 {
+    margin-top: 20px;
+}
+
+#btn2 {
+    margin-top: 10px;
+}
+
+h1 {
+    width: 100%;
+    background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+h3 {
+    color:white;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 20px #00f; /* Glowing text-shadow */
+}
+.social-links a {
+    display: inline-block;
+    
+    margin-right: 10px;
+    border: 2px solid transparent; /* Ensure border is transparent initially */
+    border-radius: 50%; /* Make it a circle */
+    transition: border-color 0.3s ease; /* Smooth transition for border color change */
+    padding: 5px; /* Adjust padding as needed */
+    border-color: #007bff; /* Change border color to blue on hover */
+    box-shadow: 0 0 5px #007bff, 0 0 10px #007bff, 0 0 20px #007bff; 
+}
+
+.social-links a:hover {
+    border-color: #007bff; /* Change border color to blue on hover */
+    box-shadow: 0 0 5px #007bff, 0 0 10px #007bff, 0 0 20px #007bff; /* Glowing box-shadow */
+}
+.social-links i {
+    color: #fff; /* Adjust color as needed */
+    font-size: 25px; /* Adjust font size as needed */
+   
+    
+}
+.social-links{
+    margin-left: 480px;
+}
+/* Style for button in nav bar */
+#getCodeBtn{
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 2px solid #007bff; /* Button border */
+    border-radius: 4px; /* Rounded border */
+    background: linear-gradient(135deg, #6dd96c 0%, #3aba4b 100%); /* Green gradient background */
+    color: #fff; /* Button text color */
+    font-size: 16px; /* Button text size */
+    cursor: pointer; /* Cursor style on hover */
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+#getCodeBtn:hover {
+    background: linear-gradient(135deg, #4ac463 0%, #238d35 100%); /* Green gradient background on hover */
+    border-color: #0056b3; /* Button border color on hover */
+}
+.social-links a:hover {
+    border: 2px solid #007bff; /* Change border color to blue on hover */
+    box-shadow: 0 0 5px #007bff, 0 0 10px #007bff, 0 0 20px #007bff; /* Glowing box-shadow */
+    background: linear-gradient(135deg, #6bc4ff 0%, #147ec1 100%); /* Gradient background on hover */
+}
+
+.social-links a:hover {
+    border-color: #007bff; /* Change border color to blue on hover */
+    box-shadow: 0 0 5px #007bff, 0 0 10px #007bff, 0 0 20px #007bff; /* Glowing box-shadow */
+}
+/* Media Query for Extra Small Devices (phones) */
+@media screen and (max-width: 576px) {
+    .nav-container {
+        padding: 10px;
+    }
+
+    .social-links {
+        margin-left: 0;
+    }
+
+    #cap {
+        margin-left: 0;
+    }
+}
+
+/* Media Query for Small Devices (tablets) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-links {
+        margin-left: 0;
+    }
+
+    #cap {
+        margin-left: 0;
+    }
+}
+
+/* Media Query for Medium Devices (small laptops) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    /* Add your styles for medium devices here */
+}
+
+/* Media Query for Large Devices (desktops) */
+@media screen and (min-width: 993px) {
+    /* Add your styles for large devices here */
+}
+/* Media Query for Medium Devices (small laptops) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        max-width: 70%;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .social-links {
+        margin-left: 20px;
+    }
+
+    #cap {
+        margin-left: 200px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    input[type="text"] {
+        max-width: 250px;
+    }
+
+    button {
+        max-width: 250px;
+    }
+}
